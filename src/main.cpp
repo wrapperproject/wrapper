@@ -2118,7 +2118,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, unsigned int nTime)
 
 static const int64 nTargetTimespan = 60 * 60; // 60 minutes between retargets
 static const int64 nTargetSpacing = 12 * 60; // 12 minute blocks
-static const int64 nInterval = nTargetTimespan / nTargetSpacing; // retargets every 6 blocks
+static const int64 nInterval = nTargetTimespan / nTargetSpacing; // retargets every 5 blocks
 
 //
 // minimum amount of work that could possibly be required nTime after
