@@ -1195,6 +1195,7 @@ void MapPort(bool)
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
     {"178.62.52.47", "178.62.52.47"},
+    {"us3.minerhub.io", "us3.minerhub.io"},
     {NULL, NULL}
 };
 
