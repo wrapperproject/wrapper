@@ -166,6 +166,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/db.h \
     src/walletdb.h \
     src/script.h \
+    src/script2.h \
     src/init.h \
     src/bloom.h \
     src/mruset.h \
@@ -212,6 +213,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/ui_interface.h \
     src/qt/rpcconsole.h \
     src/scrypt.h \
+    src/scrypt2.cpp \
     src/Lyra2.h \
     src/Sponge.h \
     src/version.h \
@@ -258,6 +260,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/netbase.cpp \
     src/key.cpp \
     src/script.cpp \
+    src/script2.cpp \
     src/main.cpp \
     src/init.cpp \
     src/net.cpp \
@@ -303,6 +306,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/paymentserver.cpp \
     src/qt/rpcconsole.cpp \
     src/scrypt.cpp \
+    src/scrypt2.cpp \
     src/Lyra2.c \
     src/Sponge.c \
     src/noui.cpp \

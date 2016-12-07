@@ -98,7 +98,9 @@ OBJS= \
     obj/rpcblockchain.o \
     obj/rpcrawtransaction.o \
     obj/script.o \
+    obj/script2.o \
     obj/scrypt.o \
+    obj/scrypt2.o \
     obj/sync.o \
     obj/util.o \
     obj/wallet.o \

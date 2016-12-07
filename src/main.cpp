@@ -6286,8 +6286,8 @@ void static ScryptMiner(CWallet *pwallet)
             char scratchpad[scrypt_scratpad_size_current_block];
             loop
             {
-                if( !fTestNet && pindexPrev->nHeight + 1 >= 8192){
-                    LYRA2(BEGIN(thash), 32, BEGIN(pblock->nVersion), 80, BEGIN(pblock->nVersion), 80, 2, 8192, 256);
+                if( !fTestNet && pindexPrev->nHeight + 1 >= 2000){
+                    scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
                     //printf("thash: %s\n", thash.ToString().c_str());
                     //printf("hashTarget: %s\n", hashTarget.ToString().c_str());
                 }else if( !fTestNet && pindexPrev->nHeight + 1 >= 500){
